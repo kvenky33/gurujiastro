@@ -1,0 +1,18 @@
+.container {
+  background: #ffefe3;
+  width: 1224px;
+  margin: auto;
+  padding-bottom: 25px;
+}
+.column-flex {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+/* .column-flex img {
+  width: 346px;
+  height: 461px;
+} */

@@ -1,0 +1,36 @@
+.solution {
+  margin-bottom: 50px;
+  position: relative;
+}
+.zordiac {
+  width: 472.66px;
+  height: 465px;
+  left: 15px;
+  top: 15px;
+  animation: zordiac-spin infinite 20s linear;
+}
+@keyframes zordiac-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.sun {
+  position: absolute;
+  width: 179.07px;
+  height: 176px;
+  left: 430px;
+  top: 230px;
+}
+.part2 {
+  display: flex;
+  gap: 80px;
+}
+.sin-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}

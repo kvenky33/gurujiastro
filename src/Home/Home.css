@@ -1,0 +1,79 @@
+.home {
+  background-color: orange;
+  background-image: url(../assets/images/beautiful-purple-universe-background\ 1.png);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  height: 93vh;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navlist {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding-right: 250px;
+}
+.navlist li {
+  padding-left: 20px;
+  list-style: none;
+}
+.home-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-heading {
+  height: 75px;
+  font-weight: 700;
+  font-size: 60px;
+}
+.home-para {
+  font-size: 16px;
+  font-weight: 400;
+  width: 500px;
+  line-height: 27px;
+  text-align: center;
+}
+.home-btn {
+  margin-top: 25px;
+  width: 220px;
+  height: 58px;
+  border-radius: 48px;
+  color: #fff;
+  background-color: #d97122;
+}
+.home-feature-section {
+  margin-top: 30px;
+}
+.home-features {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+
+  width: 129.87px;
+  height: 44px;
+}
+.home-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 11.92px;
+
+  width: 130.59px;
+  height: 30px;
+}

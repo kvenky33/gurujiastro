@@ -1,24 +1,28 @@
-.App {
+.Testimonials {
+ 
+  width: 1224px;
+  /* height: 1166px; */
+  left: 108px;
+  top: 580px;
+  color: #d97122;
+  background: #ffefe3;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.flex-heading {
+/* .testimonial-heading {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
-  color: #d97122;
 }
 .star {
   width: 27px;
   height: 29px;
 }
-.heading {
+.user-testimonial {
   font-weight: 700;
   font-size: 32px;
-}
-.guru {
-  width: 250px;
-  height: 100px;
-}
+} */
