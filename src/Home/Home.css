@@ -3,7 +3,7 @@
   background-image: url(../assets/images/beautiful-purple-universe-background\ 1.png);
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-  height: 93vh;
+
   width: 100%;
   color: #fff;
   display: flex;
@@ -76,4 +76,39 @@
 
   width: 130.59px;
   height: 30px;
+}
+@media screen and (max-width: 700px) {
+  .home {
+    width: 700px;
+  }
+
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding-right: 20px;
+  }
+  .home-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* gap: 40px; */
+
+    /* width: 600px; */
+    height: 24px;
+  }
+  .home-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* gap: 30px; */
+
+    width: 100px;
+    height: 10px;
+  }
 }

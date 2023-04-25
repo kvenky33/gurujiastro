@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+
 import guru from "../assets/images/Group 51003.png";
 import hero from "../assets/images/Ellipse 11.png";
 import customersupport from "../assets/icons/Customer support.png";

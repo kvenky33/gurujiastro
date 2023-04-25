@@ -55,3 +55,13 @@
   margin-top: 10px;
   border-radius: 6px;
 }
+@media screen and (max-width: 700px) {
+  .footer {
+    width: 700px;
+    margin-left: 10px;
+
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+}

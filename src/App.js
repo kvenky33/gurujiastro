@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+
 import Home from "./Home/Home";
 import Testimonials from "./Testimonials/Testimonials";
 import Astrologers from "./Astrologers/Astrologers";

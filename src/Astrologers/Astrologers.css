@@ -12,7 +12,19 @@
   grid-template-columns: auto auto auto;
   padding: 5px;
 }
-/* .column-flex img {
-  width: 346px;
-  height: 461px;
-} */
+@media screen and (max-width: 700px) {
+  .container {
+    width: 700px;
+  }
+  .column-flex {
+    /* width: 90%; */
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto;
+    /* padding: 5px; */
+    gap: 20px;
+    padding: 0px;
+    margin-left: 0px;
+  }
+}
